@@ -1,0 +1,240 @@
+/* Laptop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Divice :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .banner-content h2 {
+        font-size: 40px;
+    }
+
+    .main-menu .navbar-nav li a {
+        font-size: 14px;
+    }
+
+    .features-1::after,
+    .features-1::before,
+    .features-2::after,
+    .features-2::before {
+        display: none;
+
+    }
+
+    .single-service h4 {
+        font-size: 14px;
+    }
+
+    .counter-area {
+        background-color: #333;
+        padding: 40px 0;
+    }
+
+    .single-counter h4 {
+        font-size: 36px;
+    }
+
+    .single-counter h6 {
+        font-size: 20px;
+    }
+
+    .video-area {
+        padding: 80px 0 70px;
+    }
+
+    .video-content h4 {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+
+    .video-content p {
+        font-size: 18px;
+    }
+
+    .single-price h3 {
+        font-size: 45px;
+    }
+
+    .blog-meta {
+        margin: 0 10px;
+        margin-top: -25px;
+    }
+}
+
+
+/* MD Divice :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu span {
+        background-color: #fff !important;
+        color: #333333;
+        font-weight: 700;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .features-1::after,
+    .features-1::before,
+    .features-2::after,
+    .features-2::before {
+        display: none;
+
+    }
+
+    .single-service h4 {
+        font-size: 17px;
+    }
+
+    .counter-area {
+        background-color: #333;
+        padding: 50px 0;
+    }
+
+    .single-counter h4 {
+        font-size: 30px;
+    }
+
+    .single-counter h6 {
+        font-size: 18px;
+    }
+
+    .video-area {
+        padding: 70px 0 80px;
+    }
+
+    .video-content p {
+        font-size: 13px;
+    }
+
+    .video-content h4 {
+        font-size: 30px;
+    }
+
+    .team-overly h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .team-overly span {
+        font-size: 14px;
+    }
+
+    .team-overly {
+        padding: 10px;
+    }
+
+    .single-price h3 {
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .single-price h5 {
+        margin-bottom: 10px;
+    }
+
+    .single-price ul li {
+        font-size: 14px;
+    }
+
+    .section-title h4 {
+        font-size: 26px;
+    }
+
+    .blog-meta {
+        margin: 0;
+        margin-top: -25px;
+    }
+
+    .blog-meta a {
+        color: #333333;
+        text-decoration: none;
+        font-size: 16px;
+        margin-right: 10px;
+        padding: 2px;
+        display: inline-block;
+    }
+
+}
+
+/* XS :320px. */
+@media (max-width: 767px) {
+    .main-menu span {
+        background-color: #fff !important;
+        color: #333333;
+        font-weight: 700;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .banner-area .owl-dots {
+        display: none;
+    }
+
+    .banner-content h4 {
+        font-size: 18px;
+    }
+
+    .banner-content h2 {
+        font-size: 22px;
+    }
+
+    .banner-content p {
+        font-size: 13px;
+    }
+
+    .pt-60 {
+        padding-top: 60px;
+    }
+
+    .pb-60 {
+        padding-bottom: 60px;
+    }
+
+    .section-title {
+        margin-bottom: 50px;
+    }
+
+    .box-btn {
+        margin-bottom: 30px;
+    }
+
+    .features-1::after,
+    .features-1::before,
+    .features-2::after,
+    .features-2::before {
+        display: none;
+
+    }
+
+    .video-content h4 {
+        font-size: 27px;
+    }
+
+    .testimonial {
+        padding: 0px 20px;
+    }
+
+    .blog-content {
+        margin-bottom: 30px;
+    }
+
+    .single-counter h6 {
+        margin-bottom: 30px;
+    }
+
+
+
+
+}
+
+
+/* SM Divice :550px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {}
